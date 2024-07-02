@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Tutorial</title>
+  <link href="output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+  <header class="bg-white shadow-md fixed w-full z-50">
+    <nav class="container mx-auto flex justify-between items-center p-4">
+      <div class="flex items-center space-x-4">
+        <img class="h-12 w-12 rounded-full bg-teal-400" src="images/logo.jpg" alt="Logo">
+        <ul class="hidden md:flex space-x-8">
+          <li class="text-lg cursor-pointer">Home</li>
+          <li class="text-lg cursor-pointer">About Us</li>
+          <li class="text-lg cursor-pointer">Courses</li>
+          <li class="text-lg cursor-pointer">Blog</li>
+          <li class="flex items-center text-lg cursor-pointer">
+            Resources
+            <span class="material-symbols-outlined ml-1">
+              keyboard_arrow_down
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="hidden md:flex items-center space-x-4">
+        <button class="bg-white text-black border border-black py-2 px-4 rounded">Sign in</button>
+        <button class="bg-black text-white py-2 px-4 rounded flex items-center">
+          Sign up
+          <span class="material-symbols-outlined ml-1"> arrow_right_alt </span>
+        </button>
+      </div>
+      <button class="md:hidden text-black">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </nav>
+  </header>
+  <main class="pt-20 md:pt-24">
+    <div class="text-center py-16">
+      <h1 class="text-6xl font-bold">Enhance Your</h1>
+      <h1 class="text-6xl font-bold text-teal-400 mt-1">Knowledge</h1>
+      <p class="text-xl text-gray-600 mt-6">Explore a wide range of tutorials on different subjects, available on all devices.</p>
+      <p class="text-xl text-gray-600 mt-2">Start learning today and achieve your goals.</p>
+      <div class="flex justify-center mt-8 space-x-4">
+        <button class="bg-blue-500 text-white py-3 px-8 rounded">Start Free Trial</button>
+        <button class="bg-black text-white py-3 px-8 rounded">Learn More</button>
+      </div>
+    </div>
+    <div class="relative mt-16 flex justify-center items-center">
+      <div class="absolute w-24 h-24 bg-gray-200 rounded-full top-1/2 left-1/4 transform -translate-y-1/2"></div>
+      <iframe id="video-iframe" class="rounded-lg w-full md:w-[110vh] h-60 md:h-[60vh] mt-8 mx-4" src="https://www.youtube.com/watch?v=roBRQupt4J4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="absolute w-64 h-64 bg-gray-200 rounded-full top-1/2 right-1/4 transform -translate-y-1/2"></div>
+    </div>
+    <div class="text-center py-16">
+      <h1 class="text-4xl font-bold">How Our Platform Works</h1>
+      <p class="text-xl text-gray-600 mt-4">Learn at your own pace with our interactive tutorials and comprehensive guides.</p>
+      <p class="text-xl text-gray-600 mt-2">Join our community of learners and start your journey today.</p>
+    </div>
+    <div class="flex justify-center py-16">
+      <img class="w-4/5 rounded-lg" src="https://preview.cruip.com/simple/images/features-top-image.png" alt="Feature Image" />
+    </div>
+    <div class="flex flex-col md:flex-row justify-center items-center py-16 space-y-8 md:space-y-0 md:space-x-16">
+      <div class="space-y-8 md:w-1/2 px-8">
+        <div>
+          <h1 class="text-3xl font-bold">Comprehensive Learning Tools</h1>
+          <p class="text-lg text-gray-600 mt-2">Access a variety of resources to help you learn effectively and efficiently.</p>
+        </div>
+        <div class="bg-gray-200 p-6 rounded-lg">
+          <h2 class="text-2xl font-bold">Interactive Tutorials</h2>
+          <p class="text-lg text-gray-600 mt-2">Engage with hands-on tutorials designed to enhance your understanding.</p>
+        </div>
+        <div class="bg-gray-200 p-6 rounded-lg">
+          <h2 class="text-2xl font-bold">Expert Instructors</h2>
+          <p class="text-lg text-gray-600 mt-2">Learn from industry experts who share their knowledge and experience.</p>
+        </div>
+        <div class="bg-gray-200 p-6 rounded-lg">
+          <h2 class="text-2xl font-bold">Community Support</h2>
+          <p class="text-lg text-gray-600 mt-2">Join our community to collaborate and grow with other learners.</p>
+        </div>
+      </div>
+      <div class="md:w-1/2 flex justify-center">
+        <img class="rounded-lg w-3/4 h-full object-cover" src="images/students.jpg" alt="Students Image" />
+      </div>
+    </div>
+    <div class="text-center py-16">
+      <h1 class="text-5xl font-bold">Explore Our Solutions</h1>
+      <p class="text-2xl text-gray-600 mt-6">Discover how our platform can help you achieve your learning goals with ease and efficiency.</p>
+      <p class="text-2xl text-gray-600 mt-2">Join our growing community of learners today.</p>
+    </div>
+    <div class="bg-white text-gray-600 py-16">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white text-black p-8 rounded-lg">
+          <img class="w-full h-40 object-cover rounded-lg" src="images/mit.gif" alt="MIT Image">
+          <div class="mt-4 flex justify-between items-center">
+            <button class="bg-blue-500 text-white py-2 px-4 rounded-lg">Case Studies</button>
+            <button class="bg-white text-gray-600 py-2 px-4 rounded-lg">MIT</button>
+          </div>
+          <h1 class="text-2xl mt-4">“How MIT leverages our platform for their online courses.”</h1>
+          <div class="flex items-center mt-4">
+            <img class="w-8 h-8 rounded-full" src="images/amar.jpg" alt="Amar Image">
+            <p class="ml-2">by Amarnath</p>
+          </div>
+        </div>
+        <div class="bg-white text-black p-8 rounded-lg">
+          <img class="w-full h-40 object-cover rounded-lg" src="images/harvard.jpg" alt="Harvard Image">
+          <div class="mt-4 flex justify-between items-center">
+            <button class="bg-blue-500 text-white py-2 px-4 rounded-lg">Case Studies</button>
+            <button class="bg-white text-gray-600 py-2 px-4 rounded-lg">Harvard</button>
+          </div>
+          <h1 class="text-2xl mt-4">“Harvard's success with our interactive learning tools.”</h1>
+          <div class="flex items-center mt-4">
+            <img class="w-8 h-8 rounded-full" src="images/amar.jpg" alt="Amar Image">
+            <p class="ml-2">by Amarnath</p>
+          </div>
+        </div>
+        <div class="bg-white text-black p-8 rounded-lg">
+          <img class="w-full h-40 object-cover rounded-lg" src="images/coursera.jpg" alt="Coursera Image">
+          <div class="mt-4 flex justify-between items-center">
+            <button class="bg-blue-500 text-white py-2 px-4 rounded-lg">Case Studies</button>
+            <button class="bg-white text-gray-600 py-2 px-4 rounded-lg">Coursera</button>
+          </div>
+          <h1 class="text-2xl mt-4">“Coursera's integration with our platform for enhanced learning.”</h1>
+          <div class="flex items-center mt-4">
+            <img class="w-8 h-8 rounded-full" src="images/amar.jpg" alt="Amar Image">
+            <p class="ml-2">by Amarnath</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-blue-500 text-white py-16">
+      <div class="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-8">
+        <div>
+          <h1 class="text-4xl font-bold">Ready to get started?</h1>
+          <p class="text-xl mt-4">We offer a generous free tier to get you started with your learning journey right away.</p>
+        </div>
+        <button class="bg-white text-blue-500 py-4 px-8 rounded-lg shadow-md">Get Started for Free</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-white text-black py-16">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+      <div class="flex flex-col items-center md:items-start">
+        <img class="h-10 w-10 rounded-full" src="images/logo.jpg" alt="Logo">
+        <p class="mt-4">Terms · Privacy Policy</p>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold">Products</h2>
+        <ul class="space-y-2 mt-4">
+          <li>Web Development</li>
+          <li>Graphic Design</li>
+          <li>Data Science</li>
+          <li>Marketing</li>
+          <li>Business</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold">Resources</h2>
+        <ul class="space-y-2 mt-4">
+          <li>Documentation</li>
+          <li>Tutorials & Guides</li>
+          <li>Blog</li>
+          <li>Support Center</li>
+          <li>Partners</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold">Company</h2>
+        <ul class="space-y-2 mt-4">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our Values</li>
+          <li>Pricing</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold">Subscribe</h2>
+        <p class="mt-4">Get the latest news and articles to your inbox every month</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
